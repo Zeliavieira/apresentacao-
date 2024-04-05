@@ -1,0 +1,463 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+h1{
+  color: orangered;
+padding-bottom: 95px;
+padding-top: 0;
+}
+#visao-missao-valores{
+  color: orangered;
+
+}
+
+#historia h2, h3 {
+  color: orangered;
+}
+.container text-center p{
+  padding: 0px;
+}
+#estrategia-marketing {
+  background-image: url('imagens/psicologia-infantil.jpg');
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  padding:20px 0; 
+}
+header{
+  background-image: url('imagens/Captura\ de\ tela\ 2024-02-06\ 173235.jpg');
+background-size: cover;
+background-position: left;
+background-repeat: no-repeat;
+padding:100px 0; 
+}
+header p{
+  color: blueviolet;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.navbar {
+  background-color: #343a40 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: blueviolet;
+}
+
+.containerr{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+}
+
+.node {
+  position: relative;
+  width: 200px;
+  height: 50px;
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  right: -20px; Alterado para ficar no lado direito
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #3498db; Alterado para apontar para a esquerda
+  transform: translateY(-50%);
+}
+
+.arrow.right {
+  right: auto;
+  left: -20px; Ajustado para ficar do lado direito
+  border-left: none; Removido para que a seta aponte para a direita
+  border-right: 10px solid #3498db; Adicionado para que a seta aponte para a direita
+}
+
+.description {
+  width: 200px;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+footer {
+  background-color: #343a40; 
+  color: white; 
+  padding: 20px 0; 
+  text-align: center; 
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid black;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
+
+
+.containerrs h2{
+text-align: center;
+}
+.containerr{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 100vh;
+background-color: #f0f0f0;
+}
+
+.column {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 400px;
+}
+
+.node {
+position: relative;
+width: 200px;
+height: 50px;
+background-color: #3498db;
+color: #fff;
+text-align: center;
+line-height: 50px;
+border-radius: 5px;
+margin-bottom: 20px;
+cursor: pointer;
+}
+
+.arrow {
+position: absolute;
+top: 50%;
+right: -20px; Alterado para ficar no lado direito
+width: 0;
+height: 0;
+border-top: 10px solid transparent;
+border-bottom: 10px solid transparent;
+border-left: 10px solid #3498db; Alterado para apontar para a esquerda
+transform: translateY(-50%);
+}
+
+.arrow.right {
+right: auto;
+left: -20px; Ajustado para ficar do lado direito
+border-left: none; Removido para que a seta aponte para a direita
+border-right: 10px solid #3498db; Adicionado para que a seta aponte para a direita
+}
+#Balançopatrimonial h2{
+  color: orangered;
+}
+#visao-missao-valores p{
+color: #0D0D0D;}
+#dados h2{
+  color: orangered;
+
+}
+#servicos h2{
+  color: orangered;
+
+}
+#fornecedores h2{
+color: orangered;
+} 
+.description {
+width: 200px;
+background-color: #fff;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+.imagem{
+  background-image: url(imagens/Captura\ de\ tela\ 2024-02-06\ 173235.jpg);
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+}
+.imagem p{
+  font-size: 30px;
+  color: red;
+  padding-top: 5px;
+}
+#novoshorizontes h2{
+  color: orangered;
+}
+.imagem a{
+  display: inline-block;
+  margin-top: 1em;
+  padding: 1em 2em;
+  background-color:color-mix(in srgb, yellow, #ffffff 50%);
+  border-radius: 8px;
+  text-decoration: none;
+  color: black;
+}
+.imagem a:hover{
+  background-color: #0D0D0D;
+  color: rgba(252, 255, 68, 0.918);
+}
+#button{
+text-align: center;
+padding-top: 270px;
+cursor: pointer;
+  font-size: 1em;
+  
+}
+
+
+
+.containero {
+  padding: 20px;
+}
+.titulo {
+  font-size: 24px;
+  font-weight: bold;
+}
+h1 {
+  margin-top: 0;
+  font-size: 30px;
+}
+
+.containero h2 {
+  margin-top: 0;
+  display: inline-block;
+}
+h3 {
+  margin-right: 200px;
+  margin-top: 0;
+  float: right;
+}
+.contas {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
+.containere h2 {
+  margin-left: 200px;
+}
+strong {
+  margin-left: 200px;
+}
+#Contasareceber h1{
+text-align: center;
+color: orangered;
+}
+#Contasapagar h1{
+  text-align: center;
+  color: orangered;
+
+}
+Contasareceber h2{
+  color: #0D0D0D;
+}
+#Contasapagar h3{
+  color: #0D0D0D;
+}
+#Contasareceber h3{
+  color: #0D0D0D;
+
+}
+
+
+.containeros h2{
+  text-align: center;
+  color: orangered;
+}
+
+
+
+
+
+
+#organograma {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden; /* Para garantir que a imagem não ultrapasse a altura da seção */
+}
+#organograma h2{
+  text-align: center;
+  color: orangered;
+}
+/* Estilo da imagem do organograma */
+#organograma img {
+  width: 100%;
+  height: auto;
+  display: block; /* Garante que a imagem não tenha margens extras */
+}
+
+/* Definir o tamanho das caixas dos membros do organograma */
+.member-box {
+  width: calc(100% / 7); /* Distribui igualmente o espaço para os 7 membros */
+  max-width: 100px; /* Tamanho máximo das caixas */
+  border: 1px solid #ccc;
+  padding: 10px; /* Espaçamento interno */
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-align: center; /* Centraliza o texto dentro da caixa */
+}
+
+/* Estilo do texto dentro das caixas */
+.member-box h4 {
+  margin-top: 5px; /* Espaçamento superior */
+  font-size: 14px; /* Tamanho da fonte */
+}
+
+/* Alinhar as caixas no rodapé da imagem do organograma */
+.members-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around; /* Distribui as caixas igualmente */
+}
+
+/* Estilo para as descrições */
+.description-container {
+  display: none;
+  position: absolute;
+  top: 70%; /* Alinha a parte superior da descrição ao centro vertical */
+  left: 50%; /* Alinha a parte esquerda da descrição ao centro horizontal */
+  transform: translate(-50%, -50%); /* Centraliza a descrição */
+  width: 90%;
+  max-width: 600px; /* Definir a largura máxima da descrição */
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+}
+#description1 img{
+width: 150px;
+height: 150px;
+}
+
+
+
+.fluxograma-section img{
+width: 100%;
+}
+
+.fluxograma-section {
+  position: relative;
+  width: 100%;
+  overflow: hidden; /* Garante que os GIFs não ultrapassem os limites da seção */
+}
+
+.imagem-container {
+  position: relative;
+}
+
+.gifs {
+  position: absolute;
+  bottom: 0;
+  left: 66%; /* Alinha os GIFs no centro horizontal */
+  transform: translateX(-50%); /* Centraliza os GIFs */
+  display: flex;
+  padding-bottom: 80px;
+  justify-content: center;
+}
+
+.gifs img {
+  margin: 0 5px; /* Espaçamento entre os GIFs */
+  width: 100px;
+}
+.fluxograma-section h2{
+text-align: center;
+color: orangered;
+}
+
+/* controle de caixa */
+
+.containero {
+  padding: 20px;
+}
+#ControledeCaixa h2{
+  text-align: center;
+  color: orangered;
+}
+.titulo {
+  font-size: 24px;
+  font-weight: bold;
+}
+h1 {
+  margin-top: 0;
+  font-size: 30px;
+}
+
+.containero h2 {
+  margin-top: 0;
+  display: inline-block;
+}
+h5 {
+  margin-right: 70px;
+  margin-top: 0;
+  float: right;
+  font-size: 14px;
+}
+.contas {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
